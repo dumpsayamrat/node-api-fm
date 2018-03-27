@@ -5,10 +5,10 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 const env = process.env.NODE_ENV
 
 const baseConfig = {
-  port: 3000,
+  port: 3001,
   secrets: {},
   db: {
-    url: 'mongodb://localhost/jams'
+    url: 'mongodb://admin:12345678@ds143778.mlab.com:43778/node-v2'
   }
 }
 
